@@ -1,5 +1,3 @@
-Here is a README file with headings and subheadings formatted for better visibility by using Markdown with increased heading sizes:
-
 ```markdown
 # CHIT-CHAT – A REAL-TIME CHAT APPLICATION 💬
 
@@ -7,9 +5,9 @@ Welcome to **CHIT-CHAT**, a feature-rich, real-time chat application! This proje
 
 ---
 
-## 🛠 INSTRUCTIONS ON HOW TO RUN THE SERVER AND CLIENT APPLICATIONS
+## 🛠 Instructions on How to Run the Server and Client Applications
 
-### 📡 **SERVER APPLICATION**
+### 📡 Server Application:
 1. Ensure you have **Node.js** and **npm** installed on your system.
 2. Navigate to the `server` directory in your project.
 3. Install the required dependencies by running:
@@ -24,7 +22,7 @@ Welcome to **CHIT-CHAT**, a feature-rich, real-time chat application! This proje
    - The port specified in your environment variables, or  
    - **Port 5000** by default.
 
-### 💻 **CLIENT APPLICATION**
+### 💻 Client Application:
 1. Navigate to the `client` directory in your project.
 2. Install the required dependencies by running:
    ```bash
@@ -40,9 +38,9 @@ Welcome to **CHIT-CHAT**, a feature-rich, real-time chat application! This proje
 
 ---
 
-## 🏗 APPLICATION ARCHITECTURE AND CONCURRENCY
+## 🏗 Application Architecture and Concurrency
 
-### 🌐 **SERVER-SIDE**
+### 🌐 Server-Side:
 - **Architecture**: Client-server model using **Node.js**, **Express.js**, and **Socket.IO**.
 - **Real-time Communication**: Handled using **Socket.IO** for seamless concurrency between clients.
 - **User Management**:
@@ -51,7 +49,7 @@ Welcome to **CHIT-CHAT**, a feature-rich, real-time chat application! This proje
 - **Broadcasting Events**:
   - User join/leave events and chat messages are broadcasted to all connected clients, except the sender.
 
-### 🖥 **CLIENT-SIDE**
+### 🖥 Client-Side:
 - **Framework**: Built using **React** for a modern and efficient user interface.
 - **Socket.IO Integration**:
   - Connects to the server using the **Socket.IO client library**.
@@ -62,15 +60,15 @@ Welcome to **CHIT-CHAT**, a feature-rich, real-time chat application! This proje
 
 ---
 
-## 🎨 ASSUMPTIONS AND DESIGN CHOICES
+## 🎨 Assumptions and Design Choices
 
-### 🎨 **CSS STYLING**
+### 🎨 CSS Styling:
 - Modern, responsive design with a clean and visually appealing interface.
 - **Color Scheme**: Gradient-based backgrounds with contrasting UI elements.
 - **Layout**: Uses **flexbox** for structured and responsive layouts.
 - Modular **class-based styling** ensures easy maintainability.
 
-### 🖌 **USER INTERFACE DESIGN**
+### 🖌 User Interface Design:
 1. **Views**:
    - **Connection Container**: Displays a message when the client isn't connected to the server.
    - **Login Container**: Simple form for entering a username and joining the chat.
@@ -83,7 +81,7 @@ Welcome to **CHIT-CHAT**, a feature-rich, real-time chat application! This proje
    - **Online Users Panel**: Lists all connected users.
    - **Message Input**: For sending new messages.
 
-### 🤝 **USER EXPERIENCE**
+### 🤝 User Experience:
 - **Responsive Design**: Optimized for different screen sizes.
 - **Interactive Elements**: Hover effects and animations provide visual feedback.
 - **Form Styling**: Includes focus states for enhanced usability.
@@ -92,7 +90,7 @@ Welcome to **CHIT-CHAT**, a feature-rich, real-time chat application! This proje
 
 ---
 
-## ⚙️ CORE FUNCTIONALITY
+## ⚙️ Core Functionality
 
 - Users can join the chat by entering a unique username.
 - Displays the current number of online users.
@@ -102,7 +100,7 @@ Welcome to **CHIT-CHAT**, a feature-rich, real-time chat application! This proje
 
 ---
 
-## 📚 TECHNICAL CONSIDERATIONS
+## 📚 Technical Considerations
 
 - **CSS Code**:
   - Well-structured and adheres to best practices.
@@ -114,7 +112,7 @@ Welcome to **CHIT-CHAT**, a feature-rich, real-time chat application! This proje
 
 ---
 
-## 🔧 EXTENSIBILITY AND MAINTAINABILITY
+## 🔧 Extensibility and Maintainability
 
 - Modular CSS structure allows for easy extension and modification.
 - Consistent design patterns make maintaining a cohesive visual identity easier.
@@ -122,7 +120,7 @@ Welcome to **CHIT-CHAT**, a feature-rich, real-time chat application! This proje
 
 ---
 
-## 🌟 FEATURES HIGHLIGHT
+## 🌟 Features Highlight
 
 - Real-time communication using **Socket.IO**.
 - Unique username handling with intelligent suggestions.
@@ -136,5 +134,5 @@ For any issues or suggestions, feel free to reach out or create a pull request.
 
 ---
 
-**Author**: Poornika Sharma 
+**Author**: Poornika Sharma
 ```
