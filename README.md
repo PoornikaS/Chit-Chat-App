@@ -115,8 +115,8 @@ Welcome to **CHIT-CHAT**, a feature-rich, real-time chat application! This proje
 ## 🔧 Extensibility and Maintainability
 
 - Modular CSS structure allows for easy extension and modification.
-- Consistent design patterns make maintaining a cohesive visual identity easier.
-- Organized views (connection, login, and chat) ensure scalability.
+- Consistent design patterns and color schemes ensures a unified look across all views.
+- The separation between the connection, login, and chat views helps maintain a clean and scalable codebase.
 
 ---
 
@@ -128,10 +128,6 @@ Welcome to **CHIT-CHAT**, a feature-rich, real-time chat application! This proje
 - Clean, modern aesthetics powered by advanced CSS techniques.
 
 ---
-
-Feel free to explore, modify, and enhance this project! 😊  
-For any issues or suggestions, feel free to reach out or create a pull request.
-
 ---
 
 **Author**: Poornika Sharma
