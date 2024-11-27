@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#007bff" />
+    <meta
+      name="description"
+      content="Real-Time Chat Application - Connect with Others Instantly"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    
+    <title>Real-Time Chat App</title>
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="/static/js/main.chunk.js" as="script" />
+    <link rel="preload" href="/static/css/main.chunk.css" as="style" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://your-deployed-url.com/" />
+    <meta property="og:title" content="Real-Time Chat Application" />
+    <meta property="og:description" content="Connect and chat in real-time with multiple users" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://your-deployed-url.com/" />
+    <meta property="twitter:title" content="Real-Time Chat App" />
+    <meta property="twitter:description" content="Real-time communication made easy" />
+    
+    <!-- Performance and SEO optimization -->
+    <style>
+      /* Minimal critical CSS to prevent FOUC */
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+        background-color: #f4f4f4;
+      }
+      #root {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>
+      <div style="text-align: center; padding: 20px;">
+        <h1>JavaScript Required</h1>
+        <p>This chat application requires JavaScript to be enabled in your browser.</p>
+        <p>Please enable JavaScript to continue.</p>
+      </div>
+    </noscript>
+    
+    <div id="root"></div>
+  </body>
+</html>

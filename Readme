@@ -1,0 +1,46 @@
+# Real-Time Chat Application
+
+## Overview
+A real-time chat application built with React, Node.js, and Socket.IO that allows multiple users to communicate simultaneously.
+
+## Features
+- User authentication with username
+- Real-time message broadcasting
+- User join/leave notifications
+- Online user count tracking
+
+## Prerequisites
+- Node.js (v14+)
+- npm or yarn
+
+## Local Development Setup
+
+### Backend
+1. Navigate to backend directory
+2. Install dependencies: `npm install`
+3. Create `.env` file with `PORT` and `FRONTEND_URL`
+4. Run server: `npm start`
+
+### Frontend
+1. Navigate to frontend directory
+2. Install dependencies: `npm install`
+3. Create `.env` file with `REACT_APP_SOCKET_SERVER`
+4. Run application: `npm start`
+
+## Deployment
+- Frontend: Deployed on Vercel
+- Backend: Deployed on Render
+
+## Concurrency Handling
+Uses Socket.IO for asynchronous event-driven communication, managing multiple client connections efficiently.
+
+## Architecture
+- Socket.IO manages real-time bidirectional communication
+- Express.js serves as the web server
+- React provides the user interface
+- Client-server model with event-based message passing
+
+## Design Choices
+- Minimal external libraries
+- Scalable socket event handling
+- Clean, responsive UI design 
