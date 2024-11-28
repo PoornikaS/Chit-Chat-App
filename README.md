@@ -1,9 +1,9 @@
-```markdown
+
 # CHIT-CHAT – A REAL-TIME CHAT APPLICATION 💬
 
 Welcome to **CHIT-CHAT**, a feature-rich, real-time chat application! This project is built using **Node.js**, **Express.js**, **React**, and **Socket.IO**, offering an interactive and responsive user experience.
 
----
+
 
 ## 🛠 Instructions on How to Run the Server and Client Applications
 
@@ -11,11 +11,7 @@ Welcome to **CHIT-CHAT**, a feature-rich, real-time chat application! This proje
 1. Ensure you have Node.js and npm installed on your system.
 2. Navigate to the `server` directory in your project.
 3. Install the required dependencies by running npm install.
-
-   
-   ```
 4. Start the server by running npm start.
-   ```
 5. The server will now be running on the port specified in your environment variables or on port 5000 by default.
    
 
