@@ -8,15 +8,13 @@ Welcome to **CHIT-CHAT**, a feature-rich, real-time chat application! This proje
 ## 🛠 Instructions on How to Run the Server and Client Applications
 
 ### 📡 Server Application:
-1. Ensure you have **Node.js** and **npm** installed on your system.
+1. Ensure you have Node.js and npm installed on your system.
 2. Navigate to the `server` directory in your project.
-3. Install the required dependencies by running:
-   ```bash
-   npm install
+3. Install the required dependencies by running npm install.
+
+   
    ```
-4. Start the server by executing:
-   ```bash
-   npm start
+4. Start the server by running npm start.
    ```
 5. The server will now be running on the port specified in your environment variables or on port 5000 by default.
    
